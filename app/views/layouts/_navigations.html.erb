@@ -1,0 +1,37 @@
+<%= stylesheet_link_tag "specific_selectors.css" %>
+<%= stylesheet_link_tag "css_reset.css" %>
+
+  <header class = "header group" >
+
+    <!-- <img src="app/assets/images/trees666.gif" alt="App Academy Logo" class = "header_nav_logo group"> -->
+    <!-- <img src="./assets/eye-animation3.gif" alt="App Academy Logo" class = "header_nav_logo group"> -->
+    <nav class = "header_nav group">
+      <div class = "bloglogo">
+        <%= link_to image_tag("trees666.gif"), root_path %>
+      </div>
+      <h1 id="Existential Economics" class = "header_nav_name group">Existential Economics</h1>
+      <div class="hour_glass_logo">
+        <%= image_tag("Hour-Glass.png") %>
+      </div>
+      <ul class = "header_nav_list group">
+        <li><a <%= link_to 'Articles', articles_path %></a></li>
+        <li><a <%= link_to 'About', about_path %></a></li>
+        <li><a <%= link_to 'Contact Us', contact_us_path %></a></li>
+
+        <!-- <li><a href="#Login">Login</a></li> -->
+      </ul>
+      <ul class="hamburger-dropdown">
+      <li>
+      <ul>
+        <li><a <%= link_to 'Articles', articles_path %></a></li>
+        <li><a <%= link_to 'About', about_path %></a></li>
+        <li><a <%= link_to 'Contact Us', contact_us_path %></a></li>
+
+
+
+
+      </ul>
+      </li>
+    </ul>
+    </nav>
+  </header>
