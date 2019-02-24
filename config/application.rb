@@ -7,7 +7,7 @@ require 'rails/all'
 Bundler.require(*Rails.groups)
 # config.assets.initialize_on_precompile = false
 
-
+config.i18n.fallbacks = [I18n.default_locale]
 module Blog
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
