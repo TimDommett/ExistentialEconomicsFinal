@@ -38,6 +38,10 @@ h1 {
   /* display: block; */
   color: whitesmoke;
 }
+body > header > nav > div.hour_glass_logo > img {
+  padding-top: 0;
+  width: 40px;
+}
 
 h2 {
   margin-left: 20px;
