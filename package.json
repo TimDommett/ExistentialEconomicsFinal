@@ -1,7 +1,9 @@
 {
   "name": "blog",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.16.4"
+  },
   "devDependencies": {
     "webpack": "^4.29.5",
     "webpack-dev-server": "^3.2.0"
