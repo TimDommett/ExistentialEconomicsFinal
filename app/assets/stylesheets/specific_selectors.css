@@ -219,3 +219,13 @@ body > header > div {
 .article-title:hover {
   text-decoration: underline;
 }
+
+body > header > nav > div.hour_glass_logo > a > img {
+  width: 40px;
+  padding: 0;
+}
+
+body > div > div > img {
+  width: 40%;
+  padding-left: 30%;
+}
