@@ -154,7 +154,7 @@ nav {
 
     text-align: justify;
     padding: 100px;
-    font-size: x-large; 
+    font-size: x-large;
 }
 
 .home_page {
@@ -166,12 +166,12 @@ nav {
   padding: 20px;
 }
 
-.hour_glass_logo {
+body > header > nav > div.hour_glass_logo > a > img {
   width: 40px;
   padding: 0;
 }
 
-.home_brain_image {
+body > div > div > img {
   width: 40%;
   padding-left: 30%;
 }
