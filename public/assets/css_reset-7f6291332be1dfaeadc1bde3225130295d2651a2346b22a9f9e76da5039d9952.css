@@ -1,0 +1,186 @@
+html, body, div, span, h1, h2, h3, h4, a, ol, ul, li, form, label, article, aside, figure, figcaption, footer, header, nav {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+
+body > div > div > img {
+  width: 40%;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+
+body {
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+header {
+  top: 0;
+}
+
+ul  {
+  color: black;
+  text-decoration: none;
+}
+
+img {
+  width: 60px;
+  float: left;
+  padding-top: 5px;
+}
+
+.home_brain_image {
+  /* width: 40%;
+  padding-right: 30%;
+  padding-left: 30%; */
+  width: 40%;
+  padding: 30%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+h1 {
+  /* padding-top: 60px; */
+  /* display: block; */
+  color: whitesmoke;
+}
+body > header > nav > div.hour_glass_logo > img {
+  padding-top: 0;
+  width: 40px;
+}
+
+h2 {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+  font-size: large;
+}
+
+a {
+  color: black;
+}
+
+
+.show_break {
+  padding-top: 40px;
+}
+
+.article-body {
+ border-top: 1px solid #eaeaea;
+ padding-top: 15px;
+ padding-bottom: 15px;
+}
+
+.article-title {
+ font-weight: bold;
+ font-size: 1.5em;
+}
+
+.hour_glass_logo {
+  position: absolute;
+    left: 50%;
+    margin-left: -20px;  /* 50% of your logo width */
+    display: block;
+}
+
+.row {
+  margin-left: 20px;
+}
+
+.btn-primary {
+  background-color: #0B1E3C;
+  border: none;
+  color: white;
+  padding: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* font-size: 16px; */
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+
+.btn-danger {
+  background-color: maroon;
+  border: none;
+  color: white;
+  padding: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* font-size: 16px; */
+  margin: 4px 2px;
+  border-radius: 12px;
+    display: none;
+}
+
+.btn-success {
+  background-color: #0B1E3C;
+  border: none;
+  color: white;
+  padding: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* font-size: 16px; */
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+
+.article-title:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  margin-bottom: 20px;
+}
+
+.article-meta-details {
+ border-top: 1px solid #eaeaea;
+ margin-top: 15px;
+}
+
+.signup {
+  padding: 80px;
+  text-align: center;
+}
+
+nav {
+  overflow: hidden;
+}
+
+.about_copy {
+
+    text-align: justify;
+    padding: 100px;
+    font-size: x-large;
+}
+
+.home_page {
+  text-align: center;
+}
+
+.home_page_copy {
+  text-align: justify;
+  padding: 20px;
+  display: block;
+}
+
+body > header > nav > div.hour_glass_logo > a > img {
+  width: 40px;
+  padding: 0;
+}

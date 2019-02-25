@@ -1,0 +1,438 @@
+html, body, div, span, h1, h2, h3, h4, a, ol, ul, li, form, label, article, aside, figure, figcaption, footer, header, nav {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+
+body > div > div > img {
+  width: 40%;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+
+body {
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+header {
+  top: 0;
+}
+
+ul  {
+  color: black;
+  text-decoration: none;
+}
+
+img {
+  width: 60px;
+  float: left;
+  padding-top: 5px;
+}
+
+.home_brain_image {
+  /* width: 40%;
+  padding-right: 30%;
+  padding-left: 30%; */
+  width: 40%;
+  padding: 30%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+h1 {
+  /* padding-top: 60px; */
+  /* display: block; */
+  color: whitesmoke;
+}
+body > header > nav > div.hour_glass_logo > img {
+  padding-top: 0;
+  width: 40px;
+}
+
+h2 {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+  font-size: large;
+}
+
+a {
+  color: black;
+}
+
+
+.show_break {
+  padding-top: 40px;
+}
+
+.article-body {
+ border-top: 1px solid #eaeaea;
+ padding-top: 15px;
+ padding-bottom: 15px;
+}
+
+.article-title {
+ font-weight: bold;
+ font-size: 1.5em;
+}
+
+.hour_glass_logo {
+  position: absolute;
+    left: 50%;
+    margin-left: -20px;  /* 50% of your logo width */
+    display: block;
+}
+
+.row {
+  margin-left: 20px;
+}
+
+.btn-primary {
+  background-color: #0B1E3C;
+  border: none;
+  color: white;
+  padding: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* font-size: 16px; */
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+
+.btn-danger {
+  background-color: maroon;
+  border: none;
+  color: white;
+  padding: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* font-size: 16px; */
+  margin: 4px 2px;
+  border-radius: 12px;
+    display: none;
+}
+
+.btn-success {
+  background-color: #0B1E3C;
+  border: none;
+  color: white;
+  padding: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* font-size: 16px; */
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+
+.article-title:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  margin-bottom: 20px;
+}
+
+.article-meta-details {
+ border-top: 1px solid #eaeaea;
+ margin-top: 15px;
+}
+
+.signup {
+  padding: 80px;
+  text-align: center;
+}
+
+nav {
+  overflow: hidden;
+}
+
+.about_copy {
+
+    text-align: justify;
+    padding: 100px;
+    font-size: x-large;
+}
+
+.home_page {
+  text-align: center;
+}
+
+.home_page_copy {
+  text-align: justify;
+  padding: 20px;
+  display: block;
+}
+
+body > header > nav > div.hour_glass_logo > a > img {
+  width: 40px;
+  padding: 0;
+}
+.signup {
+  padding: 40px;
+  text-align: center;
+}
+/* // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
+$navbar-default-bg: #08088A; */
+
+/* Introduction to Cascading Style Sheets */
+
+
+body {
+  /* If the user cannot load the Arial font, the sans-serif font is used */
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+  /* background-color: #a0d3da; */
+  color: black;
+  font-family: sans-serif;
+}
+
+
+
+header {
+  background: black;
+  width: 100%;
+position: fixed /* float: left;
+
+  padding: 20px */
+
+}
+header a {
+  display: block;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+
+h1 {
+  /* font-size: 38px; */
+  float: left;
+  font-weight: bold;
+  padding-left: 30px
+}
+
+nav {
+  padding-top: 15px;
+  padding-right: 30px;
+  background-color: #7B283E;
+  background-color: #1E5070;
+  /* background-color: #1E5070; */
+  padding-bottom: 20px;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-evenly; */
+}
+
+.header_nav_name {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: x-large;
+  color: aliceblue;
+}
+
+
+
+.header_nav_list {
+  float: right;
+  list-style: none;
+  justify-content: flex-end;
+  padding-right: 10px;
+  color: black;
+}
+
+.header_nav_logo {
+  float: left;
+  padding-top: 5px;
+}
+
+.header_nav_list > li {
+  float: left;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-top: 10px;
+  color: black;
+}
+
+/* clearfix */
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header a:hover {
+  text-decoration: underline;
+  /* color: red */
+}
+
+.main_image {
+  /* display: flex; */
+  width: 30%;
+  /* margin: auto; */
+
+    /* position: absolute; */
+}
+
+ .header_nav_logo:hover {
+  display: inline-block;
+  /* background-color: #0074d9; */
+  /* width: 20% */
+
+  /* font-size: 1px;
+  padding: 1px; */
+  color: white;
+  /* margin-right: 5px; */
+  /* margin-left: 5px; */
+  animation: roll 3s infinite;
+  transform: rotate(30deg);
+  opacity: .7;
+}
+/*
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+
+/* .main_image:hover {
+  display: block;
+  width: 70%;
+  margin: auto;
+  background-color: transparent; */
+  /* height: 100px;
+  width: 100px; */
+  /* font-size: 1px;
+  padding: 1px;
+  color: white; */
+  /* margin-right: 5px;
+  margin-left: 5px; */
+  /* animation: skew 2s infinite;
+  transform: skew(20deg);
+  animation-direction: alternate;
+  opacity: 1;
+} */
+
+/* @keyframes skew {
+  0% {
+    transform: skewX(0deg);
+  }
+  100% {
+    transform: skewX(-20deg);
+  }
+} */
+
+
+.hamburger-dropdown {
+  display: none;
+}
+
+@media all and (max-width: 900px) {
+  nav ul {
+    display: none;
+  }
+  .header_nav_list {
+    display: none
+  }
+  .hamburger-dropdown {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    list-style: none
+  }
+  .hamburger-dropdown > li {
+    background: url(images/hamburger.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    width: 80px;
+    height: 50px;
+    /* nearest relatively positioned parent of absolute positioned child */
+    position: relative;
+    cursor: pointer;
+  }
+  .hamburger-dropdown ul {
+    /* Every time we position an element absolutely we should be thinking about
+    which parent element we need to position relatively */
+    position: absolute;
+    top: 50px;
+    left: 0;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: black 5px 5px 10px;
+  }
+
+  /* This is how we create pure css dropdown effects. No JS required. */
+  .hamburger-dropdown:hover ul {
+    display: flex;
+    background: #1E5070;
+    color: white
+  }
+
+  .hamburger-dropdown ul li:hover a {
+    text-decoration: underline;
+    color: white
+  }
+
+body > section:nth-child(3) > figure > img.main_image.eye_left {
+  /* padding-left: 20%; */
+
+}
+
+p a {
+  padding-top: 60px;
+}
+
+body > header > div {
+  /* float: left; */
+  width: 10px;
+}
+
+.article-title:hover {
+  text-decoration: underline;
+}
+
+body > header > nav > div.hour_glass_logo > a > img {
+  width: 40px;
+  padding: 0;
+}
+
+body > div > div > img {
+  width: 40%;
+  padding-left: 30%;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
