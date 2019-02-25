@@ -10050,3 +10050,93 @@ Processing by PagesController#index as HTML
 Completed 200 OK in 28ms (Views: 24.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-02-25 03:09:40 +0200
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/timdommett/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected ',', expecting ')'
+...ppend=( image_tag("brain.png"), :class => "home_brain_image"...
+...                              ^:
+  app/views/pages/index.html.erb:8:in `'
+
+Started POST "/__better_errors/4388fd76b48e28c4/variables" for 127.0.0.1 at 2019-02-25 03:09:41 +0200
+Started GET "/" for 127.0.0.1 at 2019-02-25 03:09:52 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected ':', expecting ')'
+...pend=( image_tag("brain.png") :class => "home_brain_image" )...
+...                              ^:
+  app/views/pages/index.html.erb:8:in `'
+
+Started POST "/__better_errors/4fb421de4dc802d2/variables" for 127.0.0.1 at 2019-02-25 03:09:53 +0200
+Started GET "/" for 127.0.0.1 at 2019-02-25 03:10:00 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected keyword_class, expecting ')'
+...=( image_tag("brain.png") class = "home_brain_image" );@outp...
+...                          ^~~~~:
+  app/views/pages/index.html.erb:8:in `'
+
+Started POST "/__better_errors/9e907c24f38e2e44/variables" for 127.0.0.1 at 2019-02-25 03:10:01 +0200
+Started GET "/" for 127.0.0.1 at 2019-02-25 03:12:18 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (10.7ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected ',', expecting ')'
+...ppend=( image_tag("brain.png"), class:"home_brain_image" );@...
+...                              ^:
+  app/views/pages/index.html.erb:8:in `'
+
+Started POST "/__better_errors/5ac1a1b4858dc359/variables" for 127.0.0.1 at 2019-02-25 03:12:19 +0200
+Started GET "/" for 127.0.0.1 at 2019-02-25 03:13:02 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (910.9ms)
+  Rendered layouts/_navigations.html.erb (3.2ms)
+Completed 200 OK in 926ms (Views: 924.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-25 03:14:01 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (12.6ms)
+  Rendered layouts/_navigations.html.erb (3.0ms)
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-25 03:14:16 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_navigations.html.erb (3.4ms)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-25 03:15:18 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_navigations.html.erb (5.1ms)
+Completed 200 OK in 21ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+

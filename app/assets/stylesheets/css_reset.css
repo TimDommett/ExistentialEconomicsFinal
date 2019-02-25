@@ -37,8 +37,9 @@ img {
 }
 
 .home_brain_image {
-  width: 40px;
-  padding: 0;
+  width: 40%;
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
 h1 {
