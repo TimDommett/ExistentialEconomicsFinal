@@ -9,6 +9,12 @@ html, body, div, span, h1, h2, h3, h4, a, ol, ul, li, form, label, article, asid
 
 }
 
+body > div > div > img {
+  width: 40%;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
 body {
     line-height: 1.5;
     padding-top: 10px;
@@ -169,10 +175,4 @@ nav {
 body > header > nav > div.hour_glass_logo > a > img {
   width: 40px;
   padding: 0;
-}
-
-body > div > div > img {
-  width: 40%;
-  padding-left: 30%;
-  padding-right: 30%;
 }
