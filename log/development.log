@@ -9998,3 +9998,37 @@ Processing by ArticlesController#edit as HTML
 Completed 200 OK in 33ms (Views: 28.5ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/articles" for 127.0.0.1 at 2019-02-25 02:15:48 +0200
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (11.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (39.5ms)
+  Rendered layouts/_navigations.html.erb (20.8ms)
+Completed 200 OK in 88ms (Views: 52.8ms | ActiveRecord: 22.9ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2019-02-25 02:15:50 +0200
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:53
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (21.3ms)
+  Rendered layouts/_navigations.html.erb (11.1ms)
+Completed 200 OK in 48ms (Views: 40.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/articles/5/edit" for 127.0.0.1 at 2019-02-25 02:15:54 +0200
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:53
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.4ms)
+  Rendered articles/_form.html.erb (7.3ms)
+  Rendered articles/edit.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_navigations.html.erb (5.5ms)
+Completed 200 OK in 26ms (Views: 22.3ms | ActiveRecord: 0.7ms)
+
+
