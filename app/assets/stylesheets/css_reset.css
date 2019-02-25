@@ -177,7 +177,7 @@ nav {
 .home_page_copy {
   text-align: justify;
   padding: 20px;
-  display: block;
+  display: block; 
 }
 
 body > header > nav > div.hour_glass_logo > a > img {
