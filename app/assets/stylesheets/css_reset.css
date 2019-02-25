@@ -37,9 +37,13 @@ img {
 }
 
 .home_brain_image {
-  width: 40%;
+  /* width: 40%;
   padding-right: 30%;
-  padding-left: 30%;
+  padding-left: 30%; */
+  width: 40%;
+  padding: 30%;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 h1 {
@@ -173,6 +177,7 @@ nav {
 .home_page_copy {
   text-align: justify;
   padding: 20px;
+  display: block;
 }
 
 body > header > nav > div.hour_glass_logo > a > img {
