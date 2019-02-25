@@ -15,6 +15,7 @@ body > div > div > img {
   padding-right: 30%;
 }
 
+
 body {
     line-height: 1.5;
     padding-top: 10px;
@@ -34,9 +35,10 @@ img {
   float: left;
   padding-top: 5px;
 }
-body > section:nth-child(3) > figure > img.main_image.eye_left {
-  /* padding-left: 20%; */
 
+.home_brain_image {
+  width: 40px;
+  padding: 0;
 }
 
 h1 {
@@ -173,10 +175,6 @@ nav {
 }
 
 body > header > nav > div.hour_glass_logo > a > img {
-  width: 40px;
-  padding: 0;
-}
-.home_brain_image {
   width: 40px;
   padding: 0;
 }
